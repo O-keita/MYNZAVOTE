@@ -1,0 +1,39 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <div class="vote">
+        <form method="POST" action="" class="register" id="voting-form">
+
+
+            {{form.hidden_tag()}}
+
+            
+
+            <fieldset class="form-container">
+
+                <legend>Vote</legend>
+
+                <div>
+                    {{form.user_id.label(class="label")}}
+                    {{form.user_id(class="input")}}
+                </div>
+
+                <div>
+                    {{form.candidate.label(class="label")}}
+                    {{form.candidate(class="input", id="input-vote")}}
+                </div>
+
+                <div class="submit">
+                
+                    {{form.submit(class="btn")}}
+                </div>
+
+
+            </fieldset>
+
+        </form></div>
+    </div>
+
+
+
+{% endblock content %}

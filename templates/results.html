@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+    {% block content %}
+
+        <div class="result">
+
+
+            <table id ="table">
+                <thead>
+                    
+                      <tr>
+                        <th class="table-header">Candidate</th>
+                        <th class="table-header">Votes</th>
+                        <th class="table-header">Percentage</th>
+                      </tr>
+                   
+                </thead>
+                <tbody>
+                    {% for result in results %}
+                        <tr>
+                            <td><p class="data-name">{{ result.candidate }}</p></td>
+                            <td><p class="data-votes">{{ result.votes }}</p></td>
+                            <td><p class="data-percent">{{ "%.0f" % (result.votes / total_votes * 100) }}% </p></td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        
+        </div>        
+
+    {% endblock content %}

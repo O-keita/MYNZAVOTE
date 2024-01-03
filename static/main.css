@@ -1,0 +1,280 @@
+.page{
+    background: url(IMG-20231207-WA0034-removebg-preview.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    margin: 0;
+}
+
+.home{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+body{
+    margin: 0 auto 0 auto;
+    padding: 0 auto 0 auto;
+    background:url(https://www.theeducationpeople.org/media/3562/school-leadership-democracy-blog.png?v=637350903532005668);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "Segoe UI";
+}
+
+
+.register{
+    width: 50%;
+    margin: 5% auto 0 auto;
+    padding:2% auto;
+    background: transparent;
+    overflow: hidden;
+    backdrop-filter: blur(15px);
+    background-color: rgba(1, 1, 46, 0.3);  
+    border-radius: 7px;
+    
+}
+
+.register legend{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-container div{
+
+    margin: 0 auto;
+    padding:10px auto;
+    width: 90%;
+    
+
+}
+
+.label{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 40%;
+    color: white;
+    text-align: left;
+    font-size: 17px;
+
+    
+    
+    
+}
+
+.input{
+    display: inline-block;
+    margin: 2% auto 0 auto;
+    padding: 0 auto;
+    width:55%;
+   height: 25px; 
+   background: transparent;
+   border:1px solid white;
+   color:white;
+   font-weight: 400;
+   font-size: 17px;
+}
+
+#input-vote{
+    color:white;
+    background-color:rgb(11, 11, 71);
+
+}
+
+
+
+.input:focus{
+    border: 2px solid black;
+    background: transparent;
+    color: white;
+}
+
+.btn{
+    text-align: center;
+    margin-top:2%;
+    width: 130px;
+    background:transparent;
+    border:0.5px solid white;
+    padding: 1%;
+    color: white;
+    border-radius: 7px;
+
+}
+
+.btn:hover{
+    background-color: #80032c;
+    border: none;
+}
+
+.submit{
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+#nav-link{
+    color: white;
+}
+
+.home img{
+    margin-top: 2%;
+    border-radius: 100%;
+}
+
+.vote-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+
+.btn-vote{
+ border: none;
+ color: white;
+ background-color: rgb(4, 4, 56);
+ padding: 1%;
+ width: 200px;
+ border-radius: 10px;
+}
+
+.btn-vote:hover{
+    border: 2px solid rgb(4, 4, 56);
+    color: rgb(4, 4, 56);
+    background-color:rgb(182, 169, 169);
+    font-weight: 600;
+    box-shadow: 0px 0px 13px rgb(4, 4, 56);
+}
+
+.btn-vote a:hover{
+    color: rgb(4, 4, 56);
+}
+
+.btn-vote a{
+    text-decoration: none;
+    color:white;
+}
+
+.flash_error{
+    color:white;
+    background-color:#ed1c27;
+    display: inline;
+    padding: 1%;
+    border-radius: 7px;
+    margin-left: 5%;
+}
+
+.flash_message{
+    padding: 1%;
+    border-radius: 7px;
+    margin-left: 5%;
+    background-color: #48f016;
+    display: inline;
+    list-style: none;
+    color:rgb(4, 4, 56);
+    margin-left: 5%;
+}
+
+.vote, .result{
+    background: url(/static/IMG-20231207-WA0034-removebg-preview.png);
+    background-position: center;
+    background-color:white;
+    background-repeat: no-repeat;
+    height:100vh;
+    margin:0;
+    padding:1%;
+    color: black;
+
+}
+
+#voting-form{
+    margin-top: 0.5%;
+    background-color: rgb(4, 4, 56);
+    
+}
+
+.result{
+    padding: 3%;
+}
+
+.result table {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    padding:  0 auto 0 auto;
+    padding:10px;
+    height: 60vh;
+    background-color:#24232344;
+    backdrop-filter: blur(6px);
+    border-radius: 7px;
+    color: rgb(4, 4, 56);
+
+
+
+
+}.result table tbody{
+    width: 50%;
+    margin: .2rem auto;
+    
+
+}
+
+
+
+.data-name{
+    background-color:rgb(4, 4, 56);
+    margin: 2%;
+    padding: 2%;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    font-weight:700;
+    font-size: 20px;
+}
+
+.table-header{
+    margin:3%;
+    padding: 2%;
+    text-align: center;
+    
+}
+
+.data-votes{
+
+    margin: 3%;
+    padding: 2%;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+
+    background-color: #570673;
+    font-weight:700;
+    font-size: 20px;
+}
+
+
+.data-percent{
+
+    margin: 3%;
+    padding: 2%;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #0e0578;
+    font-weight:700;
+    font-size: 20px;
+
+}
+
+
