@@ -1,4 +1,4 @@
-#!/home/omar/coding/Python_and_DB/Registration/venv/bin/python3
+#!/home/omar/coding/Python_and_DB/MYNZAVOTE/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

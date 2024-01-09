@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/omar/coding/Python_and_DB/Registration/venv"
+VIRTUAL_ENV="/home/omar/coding/Python_and_DB/MYNZAVOTE/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
