@@ -1,0 +1,59 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+
+<form method="POST" action="" class="register">
+
+
+    {{form.hidden_tag()}}
+
+    
+
+    <fieldset class="form-container">
+
+        <legend>Renew voters</legend>
+
+        <div>
+            {{form.fname.label(class="label")}}
+            {{form.fname(class="input")}}
+        </div>
+
+        <div>
+            {{form.lname.label(class="label")}}
+            {{form.lname(class="input")}}
+        </div>
+
+        <div>
+            {{form.adress.label(class="label")}}
+            {{form.adress(class="input")}}
+        </div>
+
+        <div>
+            {{form.age.label(class="label")}}
+            {{form.age(class="input")}}
+        </div>
+
+        <div>
+            {{form.country.label(class="label")}}
+            {{form.country(class="input")}}
+        </div>
+
+        <div>
+            {{form.old_id.label(class="label")}}
+            {{form.old_id(class="input")}}
+        </div>
+
+
+
+        <div class="submit">
+           
+            {{form.submit(class="btn")}}
+        </div>
+
+
+    </fieldset>
+
+</form>
+
+{% endblock content %}

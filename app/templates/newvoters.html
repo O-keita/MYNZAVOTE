@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Voters Card</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
+</head>
+<body>
+
+    <div class="newvoters">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-head">
+                    <h1>Republic of {{ form.country.data }}</h1>
+                    <h3>Voters Card</h3>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li><span class="card-label">First Name: </span> <span>{{ form.fname.data }}</span></li>
+                        <li><span class="card-label">Last Name: </span><span> {{ form.lname.data}}</span></li>
+                        <li><span class="card-label">Adress: </span><span>{{ form.adress.data }}</span></li>
+                        <li><span class="card-label">Nationality:</span> <span>{{ form.country.data }}</span></li>
+                        <li><span class="card-label">Age: </span><span>{{form.age.data }}</span></li>
+                        <li><span class="card-label">New Voters ID: </span><span>{{ new_id }}</span></li>
+                        <li><span class="card-label">Date Issued: </span><span>{{ issue_date }}</span></li>
+                        <li><span class="card-label">Date Expired: </span><span>{{expired_date}}</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <button onclick="window.print()">print</button>
+    </div>
+    
+</body>
+</html>
